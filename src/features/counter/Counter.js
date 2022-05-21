@@ -27,6 +27,7 @@ export function Counter() {
         >
           -
         </button>
+
         <span className={styles.value}>{count}</span>
         <button
           className={styles.button}
@@ -36,6 +37,7 @@ export function Counter() {
           +
         </button>
       </div>
+      
       <div className={styles.row}>
         <input
           className={styles.textbox}
