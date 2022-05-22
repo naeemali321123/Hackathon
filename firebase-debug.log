@@ -1,0 +1,165 @@
+[debug] [2022-05-22T13:50:46.126Z] ----------------------------------------------------------------------
+[debug] [2022-05-22T13:50:46.128Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-22T13:50:46.129Z] CLI Version:   11.0.0
+[debug] [2022-05-22T13:50:46.129Z] Platform:      win32
+[debug] [2022-05-22T13:50:46.129Z] Node Version:  v17.4.0
+[debug] [2022-05-22T13:50:46.130Z] Time:          Sun May 22 2022 18:50:46 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-05-22T13:50:46.131Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-22T13:50:46.134Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-05-22T13:50:46.299Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-22T13:50:46.299Z] > authorizing via signed-in user (naeem.ali@saylaniwelfare.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Naeem
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-05-22T13:50:47.225Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-05-22T13:50:47.226Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-22T13:50:55.247Z] Using project from CLI flag: reactjsproject12
+[debug] [2022-05-22T13:50:55.249Z] > refreshing access token with scopes: []
+[debug] [2022-05-22T13:50:55.251Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-05-22T13:50:55.660Z] <<< HTTP RESPONSE 200 {"date":"Sun, 22 May 2022 13:50:56 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-05-22T13:50:55.675Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 [none]
+[debug] [2022-05-22T13:50:56.331Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 403
+[debug] [2022-05-22T13:50:56.331Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-22T13:50:56.333Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-22T13:50:56.702Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project reactjsproject12. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-22T13:51:37.189Z] ----------------------------------------------------------------------
+[debug] [2022-05-22T13:51:37.191Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-22T13:51:37.192Z] CLI Version:   11.0.0
+[debug] [2022-05-22T13:51:37.192Z] Platform:      win32
+[debug] [2022-05-22T13:51:37.192Z] Node Version:  v17.4.0
+[debug] [2022-05-22T13:51:37.193Z] Time:          Sun May 22 2022 18:51:37 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-05-22T13:51:37.193Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-22T13:51:37.274Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-22T13:51:37.274Z] > authorizing via signed-in user (naeem.ali@saylaniwelfare.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Naeem
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-22T13:51:42.543Z] Using project from CLI flag: reactjsproject12
+[debug] [2022-05-22T13:51:42.550Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 [none]
+[debug] [2022-05-22T13:51:43.348Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 403
+[debug] [2022-05-22T13:51:43.348Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-22T13:51:43.350Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-22T13:51:43.754Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project reactjsproject12. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-22T13:52:14.987Z] ----------------------------------------------------------------------
+[debug] [2022-05-22T13:52:14.990Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-05-22T13:52:14.991Z] CLI Version:   11.0.0
+[debug] [2022-05-22T13:52:14.991Z] Platform:      win32
+[debug] [2022-05-22T13:52:14.991Z] Node Version:  v17.4.0
+[debug] [2022-05-22T13:52:14.992Z] Time:          Sun May 22 2022 18:52:14 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-05-22T13:52:14.992Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-22T13:52:15.072Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-22T13:52:15.073Z] > authorizing via signed-in user (naeem.ali@saylaniwelfare.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Naeem
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-05-22T13:52:34.404Z] Using project from CLI flag: reactjsproject12
+[debug] [2022-05-22T13:52:34.411Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 [none]
+[debug] [2022-05-22T13:52:35.113Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 403
+[debug] [2022-05-22T13:52:35.114Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-22T13:52:35.115Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-22T13:52:35.476Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project reactjsproject12. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-05-22T13:54:07.506Z] ----------------------------------------------------------------------
+[debug] [2022-05-22T13:54:07.509Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-05-22T13:54:07.510Z] CLI Version:   11.0.0
+[debug] [2022-05-22T13:54:07.510Z] Platform:      win32
+[debug] [2022-05-22T13:54:07.510Z] Node Version:  v17.4.0
+[debug] [2022-05-22T13:54:07.511Z] Time:          Sun May 22 2022 18:54:07 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-05-22T13:54:07.511Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-05-22T13:54:07.593Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-05-22T13:54:07.593Z] > authorizing via signed-in user (naeem.ali@saylaniwelfare.com)
+[debug] [2022-05-22T13:54:07.594Z] [iam] checking project reactjsproject12 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-05-22T13:54:07.597Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactjsproject12:testIamPermissions [none]
+[debug] [2022-05-22T13:54:07.597Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactjsproject12:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-05-22T13:54:09.481Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactjsproject12:testIamPermissions 200
+[debug] [2022-05-22T13:54:09.481Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/reactjsproject12:testIamPermissions {}
+[debug] [2022-05-22T13:54:09.482Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project reactjsproject12:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2022-05-22T13:54:09.485Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 [none]
+[debug] [2022-05-22T13:54:10.026Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 403
+[debug] [2022-05-22T13:54:10.027Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/reactjsproject12 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2022-05-22T13:54:10.029Z] HTTP Error: 403, The caller does not have permission
+[debug] [2022-05-22T13:54:10.402Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:47:12)
+    at RetryOperation._fn (C:\Users\Naeem\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:286:39)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project reactjsproject12. Please make sure the project exists and your account has permission to access it.
